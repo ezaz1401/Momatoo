@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momato.com-khareedo aur khao</title>
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        .section{
+            font-style: italic;
+            font-size: xx-large;
+            color: aliceblue;
+           
+        }
+        .section2{
+            color: cornsilk;
+            font-family: monospace;
+        }
+        #id1{
+            height:70px;
+            width: 96%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: red;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 15px 0px 15px 0px;
+            border-bottom: 3px solid rgb(150, 150, 150)
+
+        }
+        .container{
+            min-height: 300px;
+            width:98%;
+            background-image: url(bg.jpg) ;
+            font-size: larger;
+            color: rgb(163, 160, 160);
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            border-radius: 7px;
+            border-bottom: 3px solid grey;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 50px;
+            padding-bottom: 12px;
+        }
+        #id2{
+            font-size: xx-large;
+            font-style: italic;
+        }
+        #id3{
+            color: rgb(39, 39, 39);
+            font-family: sans-serif;
+
+        }
+        #id4{
+            height: 75px;
+            width: 75px;
+        }
+        .menu{
+            display: flex;
+            height: 410px;
+            width: 97%;
+            justify-content: space-evenly;
+            padding-top: 25px;
+        }
+        .pizza{
+            height: 700px;
+            width: 26%;
+            border-radius: 17px;
+            border-top: 3px solid orangered;
+            border-bottom: 3px solid orangered;
+            border-left: 3px solid orangered;
+            border-right: 3px solid orangered;
+            text-align: center;
+            padding-bottom: 35px;
+          
+        }
+        .burger{
+            height: 700px;
+            width: 26%;
+            border-radius: 17px;
+            border-top: 3px solid orangered;
+            border-bottom: 3px solid orangered;
+            border-left: 3px solid orangered;
+            border-right: 3px solid orangered;
+            text-align: center;
+            padding-bottom: 35px;
+           
+        }
+        .pasta{
+            height: 700px;
+            width: 26%;
+            border-radius: 17px;
+            border-top: 3px solid orangered;
+            border-bottom: 3px solid orangered;
+            border-left: 3px solid orangered;
+            border-right: 3px solid orangered;
+            text-align: center;
+            padding-bottom: 35px;
+            
+        }
+        .heading{
+            font-size:x-large ;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            height: 75px;
+            width: 99%;
+            background-color: rgb(228, 87, 21);
+            color: aliceblue;
+            align-items: center;
+            text-align: center;
+            border-radius: 15px 0px 15px 0px;
+            border-bottom: 3px solid grey;
+            padding-top: 0px;
+        }
+        #sid{
+            font-style: italic;
+        }
+        #pid{
+            height: 270px;
+            width: 336px;
+            border-radius: 17px 17px 0px 0px;
+        }
+        #sec1{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: x-large;
+        }
+        #id12{
+            height: 35px;
+            width: 150px;
+            background-color: orangered;
+            border-width: 0px;
+            color: aliceblue;
+            border-radius: 7px;
+        }
+        .div69{
+            height: 150px;
+            background-color: rgb(77, 77, 77);
+            color: aliceblue;
+            font-size: small;
+            margin: 15px;
+            padding: 15px 15px 15px 15px;
+        }
+        .pbar{
+            height: 35px;
+            margin: 15px;
+            width: 100%;
+            background-color: aliceblue;
+            border-radius: 15px;
+           
+        }
+        .prog{
+            width: 0px;
+            height: 35px;
+            border-radius: 15px ;
+            background-color: orange;
+            animation-name: progress ;
+            position: relative;
+            animation-duration: 15s;
+            animation-timing-function: cubic-bezier(0, 0.1, 0.4, -0.07);
+            animation-iteration-count: 1;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        @keyframes progress {
+            0%{
+                width: 0px;
+                
+            }
+            100%{
+                width: 98%;
+            }
+        }
+        .div3{
+            margin: 15px;
+            width: auto;
+            height: 35px;
+            background-color: black;
+            color: black;
+            transition-property: div3;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            transition-timing-function: ease-in;
+            transition-duration: 5s;
+            border-radius: 15px;
+            display: flex;
+            align-items:center; 
+            text-align: center;
+            
+            
+        }
+        .div3:hover{
+            background-color: rgb(255, 255, 255);
+            border-radius:15px ;
+            transition-duration: 5s;
+            
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <header>
+<nav id="id1">
+    <section class="section">
+        <h1>Momato</h1>
+    </section>
+    <section class="section2">
+        <h2>More about us</h2>
+    </section>
+</nav>
+<div class="pbar">
+    <div class="prog"></div>
+</div>
+    </header>
+   
+    <main>
+            
+
+<div class="container">
+    <img src="logo_edited.jpg" id="id4">
+
+    <h1 id="id2"> Momato</h1>
+    <span id="id3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minima aut, accusantium commodi eos blanditiis praesentium vero vel natus excepturi! Eveniet unde inventore illum reprehenderit ab. Sit dolores unde reiciendis.
+    Delectus, debitis eius impedit officiis quia dicta. Voluptatem unde odio maxime accusantium veritatis, porro laborum perspiciatis ut rem est natus quas deserunt, ipsum aspernatur nostrum voluptates aliquam. Saepe, magni amet?
+    Autem, vitae fugit eum ex distinctio ipsa facilis quasi eaque tenetur. Molestias maiores neque excepturi expedita provident voluptatibus ipsa omnis, eius ullam temporibus magnam quia, aliquid vel sequi incidunt blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, in ab officia saepe odit aspernatur soluta autem iste temporibus, reprehenderit repellat ducimus, tenetur culpa! Impedit voluptates libero error nostrum quidem.
+    Ratione veniam neque earum totam molestias unde deserunt magnam, hic cumque a nihil? Error assumenda iste placeat aspernatur voluptatem saepe maiores doloremque ducimus consequatur! Cum quos unde aliquid quo ipsa.
+    Minus voluptatem porro quis saepe molestiae velit nisi sapiente distinctio officiis, magnam hic? Atque sunt minus saepe molestiae libero optio at cupiditate totam modi. Illum optio sint labore ipsam vel!
+    Id, facilis sint voluptates quaerat cum modi. Ipsam a enim consequuntur totam error commodi. Illum odit error libero aliquam quos asperiores, dolores beatae. Corporis reprehenderit architecto odio eveniet ducimus officia!
+    Illum iusto, exercitationem dolorum, officia quibusdam itaque laudantium ipsum hic reprehenderit quasi nisi enim, eos ea beatae nam magni rerum in neque quas adipisci. Praesentium delectus eos nisi enim totam.
+    Inventore, possimus nostrum! Voluptatum doloremque ipsam, aperiam laborum asperiores sequi ducimus officiis, unde, omnis impedit tempore qui odio optio dicta rerum voluptates vitae aliquam inventore dolores sunt excepturi fugiat quam.
+    Rem obcaecati sint numquam repellendus, consectetur veniam, corrupti necessitatibus est aperiam recusandae itaque nihil alias, adipisci doloribus error molestiae voluptatum modi a. Earum laudantium exercitationem dignissimos modi maiores quaerat pariatur!
+    Culpa quae architecto placeat explicabo atque nemo perspiciatis minus sequi quam maiores a, dolorum similique eum enim repellat excepturi! Repellat aut ab laudantium atque, nemo sequi tenetur quibusdam praesentium natus.
+    Explicabo eaque rerum a impedit architecto quibusdam doloribus distinctio, modi accusamus quaerat unde cupiditate fugit ratione cum fuga eveniet numquam animi quisquam. Magni dicta neque facilis velit aut accusamus qui!
+    Ut quidem, eaque error laudantium perspiciatis dolores unde odio mollitia explicabo rem voluptate ipsa velit officia assumenda doloribus commodi. Tenetur assumenda fugiat consectetur ipsam provident autem corporis ut hic quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, odit veniam a consectetur laboriosam incidunt iure asperiores ad ab nostrum! Cum sequi accusantium eligendi, quo natus atque doloribus perferendis quae.
+    Quasi blanditiis maiores delectus aliquam exercitationem laborum voluptate ut ducimus, repellendus doloribus esse suscipit, distinctio reprehenderit saepe, labore provident quos minus corrupti temporibus at! Beatae rem voluptatibus quo ipsa illum?
+    Quibusdam odit eos distinctio vero nam adipisci libero a, asperiores perspiciatis modi optio nihil eligendi minima in. Fugit mollitia nisi laborum odit dolore nihil dolorem. Aliquid laboriosam cum numquam dignissimos?</span>
+</div>
+<br>
+<div class="heading">
+    <h2><span id="sid">Momato</span> Menu</h2>
+</div>
+<div class="menu">
+    <div class="pizza"><img src="pizza.jpeg" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui praesentium dolorum. Minima recusandae, atque voluptatem maiores aut optio iure blanditiis obcaecati et accusantium? Commodi libero nostrum minima magni? Esse.</p><h4>$10</h4></section><a href="orderpage copy.html"><button id="id12">Order NOW</button></a></div>
+    <div class="burger"><img src="burger.jpg" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nobis incidunt quis maxime consequatur beatae maiores commodi. Recusandae, aliquam! Debitis, facilis ut cupiditate eligendi mollitia porro eaque reprehenderit voluptas nobis!</p><h4>$7</h4></section><a href="orderpage copy 2.html"><button id="id12">Order NOW</button></a></div>
+    <div class="pasta"><img src="pasta.jpg" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus corrupti inventore delectus atque velit quas consequatur! Quos, cum ad perferendis incidunt, excepturi non aliquid alias vero consectetur laudantium eos!</p><h4>$7.4</h4></section><a href="orderpage copy 3.html"><button id="id12">Order NOW</button></a></div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="menu">
+    <div class="pizza "><img src="logo.jpg" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui praesentium dolorum. Minima recusandae, atque voluptatem maiores aut optio iure blanditiis obcaecati et accusantium? Commodi libero nostrum minima magni? Esse.</p><h4>$11</h4></section><a href="orderpage copy 4.html"><button id="id12">Order NOW</button></a></div>
+    <div class="burger"><img src="butterchicken.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nobis incidunt quis maxime consequatur beatae maiores commodi. Recusandae, aliquam! Debitis, facilis ut cupiditate eligendi mollitia porro eaque reprehenderit voluptas nobis!</p><h4>$5</h4></section><a href="orderpage copy 5.html"><button id="id12">Order NOW</button></a></div>
+    <div class="pasta"><img src="logo.jpg" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus corrupti inventore delectus atque velit quas consequatur! Quos, cum ad perferendis incidunt, excepturi non aliquid alias vero consectetur laudantium eos!</p><h4>$6</h4></section><a href="orderpage copy 6.html"><button id="id12">Order NOW</button></a></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="menu">
+    <div class="pizza"><img src="eggroll.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia qui praesentium dolorum. Minima recusandae, atque voluptatem maiores aut optio iure blanditiis obcaecati et accusantium? Commodi libero nostrum minima magni? Esse.</p><h4>$10</h4></section><a href="orderpage.html"><button id="id12">Order NOW</button></a></div>
+    <div class="burger"><img src="frenchfries.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nobis incidunt quis maxime consequatur beatae maiores commodi. Recusandae, aliquam! Debitis, facilis ut cupiditate eligendi mollitia porro eaque reprehenderit voluptas nobis!</p><h4>$7</h4></section><a href="orderpage copy 10.html"><button id="id12">Order NOW</button></a></div>
+    <div class="pasta"><img src="cocacola.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus corrupti inventore delectus atque velit quas consequatur! Quos, cum ad perferendis incidunt, excepturi non aliquid alias vero consectetur laudantium eos!</p><h4>$7.4</h4></section><a href="orderpage copy 11.html"><button id="id12">Order NOW</button></a></div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="menu">
+    <div class="pizza"><img src="chicken lollipop.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus nobis incidunt quis maxime consequatur beatae maiores commodi. Recusandae, aliquam! Debitis, facilis ut cupiditate eligendi mollitia porro eaque reprehenderit voluptas nobis!</p><h4>$5</h4></section><a href="orderpage copy 8.html"><button id="id12">Order NOW</button></a></div>
+    <div class="pasta"><img src="kajukatli.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus corrupti inventore delectus atque velit quas consequatur! Quos, cum ad perferendis incidunt, excepturi non aliquid alias vero consectetur laudantium eos!</p><h4>$6</h4></section><a href="orderpage copy 9.html"><button id="id12">Order NOW</button></a></div>
+    <div class="pasta"><img src="tacos.png" id="pid"><section id="sec1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus corrupti inventore delectus atque velit quas consequatur! Quos, cum ad perferendis incidunt, excepturi non aliquid alias vero consectetur laudantium eos!</p><h4>$6</h4></section><a href="orderpage copy 8.html"><button id="id12">Order NOW</button></a></div>
+</div>
+    </main>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <footer>
+         <div class="div69">
+            <h3> The trademark of this website *momato belongs to EZAZ ALAM AHMED. if you see anyone copying this and distributing in mass contact me on the gmail given below.</h3>
+            <h4>islamuddinahmed635@gmail.com</h4>
+            <h4>iamriyan123@gmail.com</h4>
+            <h4> whatsapp me - 6002184270</h4>
+         </div>
+         <div class="div3">
+            <h3>if anyone wants to buy this website *momato.com it i will sell it for 50/- only . email me.</h3>
+         </div>
+    </footer>
+</body>
+
+</html>
